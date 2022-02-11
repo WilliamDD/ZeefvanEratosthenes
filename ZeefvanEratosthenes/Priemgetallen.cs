@@ -22,8 +22,8 @@ namespace ZeefvanEratosthenes
                 output.Add(kleinsteGetal);
                 for (double i = 1; i <= maximum; i++)
                 {
-                    var bla = kleinsteGetal * i;
-                    getallen.Remove(bla);
+                    var veelvouden = kleinsteGetal * i;
+                    getallen.Remove(veelvouden);
                 }
             }
 
